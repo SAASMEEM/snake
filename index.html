@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Snake</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+    <div class="header">
+        <h1>Snake Game</h1>
+    </div>
+
+    <button class="button buttonreset" onclick="reset()">Reset</button>
+    <button class="button buttonpause" onclick="alert('game paused')">Pause</button>
+
+<!--    <p>Score: <span id="score"></span> | Highscore: <span id="highscore"></span></p>-->
+
+    <table>
+        <tr>
+            <th>Score</th>
+            <td><span id="score"></span></td>
+        </tr>
+        <tr>
+            <th>Highscore</th>
+            <td><span id="high_score"></span> </td>
+        </tr>
+    </table>
+
+
+    <canvas id="canvas" width="500" height="500"></canvas>
+
+    </body>
+    <script src="script.js"></script>
+</html> 
